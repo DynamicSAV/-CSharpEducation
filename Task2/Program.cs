@@ -1,4 +1,6 @@
-﻿namespace Task2;
+﻿using System.Runtime.InteropServices;
+
+namespace Task2;
 
 class Program
 {
