@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1", "Task1\Task1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task2\Task2.csproj", "{48225E15-5825-4502-8F0A-0C95870BF57A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phonebook", "Phonebook", "{DD5E24D9-CEC4-42DD-B3CC-DD5761AA694F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phonebook", "Phonebook\Phonebook.csproj", "{13A6E827-D523-495F-B15D-B9DAA4F88AA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{48225E15-5825-4502-8F0A-0C95870BF57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48225E15-5825-4502-8F0A-0C95870BF57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48225E15-5825-4502-8F0A-0C95870BF57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A6E827-D523-495F-B15D-B9DAA4F88AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A6E827-D523-495F-B15D-B9DAA4F88AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A6E827-D523-495F-B15D-B9DAA4F88AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A6E827-D523-495F-B15D-B9DAA4F88AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13A6E827-D523-495F-B15D-B9DAA4F88AA5} = {DD5E24D9-CEC4-42DD-B3CC-DD5761AA694F}
 	EndGlobalSection
 EndGlobal
